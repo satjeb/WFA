@@ -2,7 +2,7 @@
 
 A short, early prototype of a game made in C with SDL. Similar to a side scroller, the player must navigate an unsuitably large yet powerful vessel through a dangerous asteroid field to explore the unknown.
 
-
+The screenshot directory has a screenshot of the code in action.
 
 This was developed using the SDL libraries (found here: https://www.libsdl.org/index.php) with some help and guidance from some Lazy Foo' (http://lazyfoo.net/tutorials/SDL/index.php).  The assets are a mix of self-made (if it looks like it was scribbled in MSPaint, that was me), requisitioned (the main ship silhouette is a based on the Archon-class from Star Trek Online), and volunteered material by a friend (Koppenflak who rendered everything that actually looks good). I merely claim the code.
 
