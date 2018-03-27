@@ -37,6 +37,7 @@ Asset* saveAsset(char* path);
 void doAbility(Tactical *src, Tactical *tgt, int whichAbility);
 void salvoCheck(Tactical *src, Tactical *tgt);
 int getPhaserLinger();
+void setPhaserLinger(int newLinger);
 void script_Phasers(Tactical *src, Tactical *tgt);
 void script_PhotonTorpedo(Tactical *src, Tactical *tgt);
 void script_QuantumTorpedo(Tactical *src, Tactical *tgt);
