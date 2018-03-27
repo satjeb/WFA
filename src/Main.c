@@ -56,6 +56,7 @@ int main(int argc, char* args[]) {
                 paused = false;
                 restart = false;
                 player->invincibleUntil = 0;
+                setPhaserLinger(0);
             }
 
             if (!paused && !gg) {

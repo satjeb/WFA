@@ -635,6 +635,11 @@ int getPhaserLinger() {
     return playerPhaserLinger;
 }
 
+// sets phaser linger time to new value, useful for reseting.
+void setPhaserLinger(int newLinger) {
+    playerPhaserLinger = newLinger;
+}
+
 void script_Phasers(Tactical *src, Tactical *tgt) {
     // target is alive and not the user
     if (tgt->hp > -1 && tgt != src) {
@@ -643,7 +648,7 @@ void script_Phasers(Tactical *src, Tactical *tgt) {
         if (tgt->hp < 0) {
             createObject("Explosion", 9, 1, tgt->pos, tgt->dst, 180, 59, 750);
         }
-        playerPhaserLinger = getMissionClock() + 500;
+        setPhaserLinger(getMissionClock() + 500);
     }
 }
 
